@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer() { return <footer className="bg-emerald-950 text-emerald-100 px-5 py-10"><div className="max-w-6xl mx-auto flex flex-wrap justify-between gap-6"><div><p className="text-xl font-bold text-white">팔도강산</p><p className="text-sm mt-2">우리 지역의 좋은 것을 발견하는 곳</p></div><div className="flex gap-6"><Link href="/about">서비스 소개</Link><Link href="/contact">문의 안내</Link><Link href="/malls">쇼핑몰 목록</Link></div></div></footer>; }

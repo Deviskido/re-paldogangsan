@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function ContactPage() { return <div className="max-w-3xl mx-auto px-5 py-16 space-y-6"><h1 className="text-4xl font-bold">문의 안내</h1><p>현재 문의 접수 서버와 운영 연락처가 연결되지 않았습니다. 이 페이지에서는 문의나 개인정보를 수집하지 않습니다.</p><p>실제 서비스 운영을 시작할 때 쇼핑몰 입점 제안, 상품 정보 정정, 서비스 문의 채널을 안내할 예정입니다.</p><Link href="/about" className="text-emerald-800 underline">서비스 소개 보기 →</Link></div>; }
