@@ -7,8 +7,14 @@
     "incremental": false
   },
   "include": [
-    "src/**/*.ts",
+    "src/lib/**/*.ts",
+    "src/types/**/*.ts",
     "scripts/**/*.ts",
+    "tools/**/*.ts",
     "tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "legacy"
   ]
 }

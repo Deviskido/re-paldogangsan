@@ -1,39 +1,25 @@
-# Development files
+# Local configuration and development tools
 .env.local
 .env.development
+.git
+.cursor
+.taskmaster
+.mcp.json
+.vscode
+.idea
 
-# Source files not needed for static site
-/scrapers
-/src/**/*.test.ts
-/src/**/*.test.tsx
-
-# Documentation
+# Archived code, tooling and documentation are not app build inputs
+legacy/
+tools/
+tests/
+scripts/
+docs/
 *.md
 !README.md
 
-# Git
-.git
-.gitignore
-
-# Dependencies
-node_modules
-
-# IDE
-.vscode
-.idea
-.cursor
-
-# Task Master
-.taskmaster
-
-# MCP
-.mcp.json
-
-# TypeScript
+# Recreated by installation/build
+node_modules/
+.next/
+out/
 *.tsbuildinfo
-
-# Next.js development
-.next
-
-# Mac
 .DS_Store
